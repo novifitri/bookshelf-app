@@ -105,11 +105,7 @@ header {
     color: white;
     background: #06283D;
 }
-button > img{
-    width: 100%;
-    border-radius: 50%;
-    background-size: contain;
-}
+
 
 form {
     position: fixed;
@@ -219,6 +215,9 @@ input[type=text], input[type=date]:focus {
 .edit-button:hover {
     background: url('../images/edit-solid.svg');
     background-size: contain;
+}
+button {
+    -webkit-tap-highlight-color: transparent;
 }
 .list-buku {
     width: 100%;
